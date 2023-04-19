@@ -1,0 +1,14 @@
+.li-hoverbar::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	height: 0px;
+	width: 5px;
+	background-color: #ffc107;
+	transform: translate(-15px, -3px);
+	transition: height 0.5s;
+}
+
+.li-hoverbar:hover::before {
+	height: 88px;
+}
