@@ -12,3 +12,24 @@
 .li-hoverbar:hover::before {
 	height: 88px;
 }
+
+#founder{
+	position:relative;
+}
+
+#founder::before{
+	content: "";
+    background: url(/assets/img/quotation.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: -120px;
+	left: 0px;
+	height: 200px;
+	width: 200px;
+	z-index: -1;
+}
+
+#vin{
+	filter: blur(6px);
+}
