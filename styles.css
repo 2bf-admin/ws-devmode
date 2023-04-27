@@ -33,3 +33,13 @@
 #vin{
 	filter: blur(6px);
 }
+
+.body-gradient {
+	
+	background: rgb(0,212,255);
+	background: linear-gradient(180deg, rgba(0,212,255,0.15) 60%, rgba(9,9,121,0.10) 95%);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment: fixed;
+
+}
