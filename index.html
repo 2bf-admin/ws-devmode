@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,12 +13,14 @@
 		<meta property="og:image" content="https://2bf-edson-hernandez.github.io/ws-devmode/assets/img/pexels-pixabay-39578.jpg">
 		<meta property="og:url" content="https://www.2befocus.com/">
 		<title>2BeFocus | Tu tecnología, nuestro enfoque</title>
-		<link href="styles.css" rel="stylesheet" />
+		
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
 		<link rel="stylesheet/scss" href="custom.scss" />
 		<link href="block-hero.css" rel="stylesheet"/>
+		<link href="styles.css" rel="stylesheet"/>
 		<link rel="icon" type="image/x-icon" href="/assets/ico/gear-fill.svg">
+		
 	</head>
 
 	<body class="container">
@@ -56,7 +58,7 @@
 									</a>
 								</li>
 								<li>
-									<a class="dropdown-item li-hoverbar" href="#">Nosotros
+									<a class="dropdown-item li-hoverbar" href="./team.html">Nosotros
 										<p class="py-2 text-muted">Expertos en nuestro campo.</p>										
 									</a>
 								</li>
@@ -66,19 +68,19 @@
 							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Recursos </a>
 							<ul class="dropdown-menu">
 								<li>
-									<a class="dropdown-item li-hoverbar" href="#">Contacto
+									<a class="dropdown-item li-hoverbar" href="./contact.html">Contacto
 										<p class="py-2 text-muted">Conversa con nuestro equipo.</p>
 									</a>
 								</li>
 								<li>
-									<a class="dropdown-item li-hoverbar" href="#">Newsroom
+									<a class="dropdown-item li-hoverbar" href="./news.html">Newsroom
 										<p class="py-2 text-muted">Expertos en nuestro campo.</p>
 									</a>
 								</li>
 							</ul>
 						</li>
 
-						<button class="btn btn-light border-0 ms-lg-auto" type="button" style="background-color: #ffae24 !important;">Contacto</button>
+						<a href="contact.html" class="btn btn-light border-1 ms-lg-auto" type="button" style="background-color: #ffae24 !important;">Contacto</a>
 					</ul>
 				</div>
 			</div>
@@ -106,7 +108,7 @@
 
 		<!-- ********* HEADER ********* -->
 		<!-- ********* HEADER ********* -->
-		<header class="container col-xxl-9 col-md-12 px-4 pt-5 block block-hero block-hero--side-by-side pe-0 mt-3">
+		<header class="container col-xxl-9 col-md-12 px-4 pt-5 block block-hero block-hero--side-by-side pe-0 mt-5">
 			<div class="row flex-md-row flex-column align-items-end justify-content-start g-5 py-5">
 				<div class="col-lg-6 col-md-7">
 					<div class="block-hero__content">
@@ -131,16 +133,18 @@
 					</div>
 				</div>
 			</div>
+			<br>
 			<h6 class="text-center text-uppercase lh-lg mb-5"><div class="d-sm-inline d-block">Tu tecnología,</div> <div class="d-inline">nuestro enfoque</div></h6>
 		</header>
 
 		<section id="cards" class="container col-xxl-9 col-md-12 my-5 pb-sm-5">
 			<h1 class="text-center">La tecnología es el lenguaje universal del futuro.</h1>
+			<br>
 			<div class="d-flex flex-md-row flex-column justify-content-between align-items-stretch mb-5">
 				<div class="pe-md-2 col-12 col-md-6">
-					<div class="card d-flex justify-content-between">
-						<div class="card-body">
-							<i class="bi bi-rocket-fill" style="font-size: 2rem; color:#5db8ea"></i>
+					<div class="card h-100">
+						<div class="card-body d-flex flex-column justify-content-start p-4 gap-1">
+							<i class="bi bi-rocket-fill" style="font-size: 2.5rem; color:#5db8ea"></i>
 							<h5 class="card-title">Puesta en marcha dispositivos Apple de empresa</h5>
 							<p class="card-text">Reduce complejidad y ahorra tiempo. Obtén apoyo profesional en la instalación y configuración de nuevos dispositivos.</p>
 							<a href="#" class="link-opacity-75 link-underline link-underline-opacity-0 text-uppercase">Conoce más <i class="bi bi-arrow-right"></i></a>
@@ -150,27 +154,28 @@
 				<br>
 				<div class="ps-md-2 col-12 col-md-6">
 					<div class="card h-100">
-						<div class="card-body d-flex flex-column justify-content-between">
-							<i class="bi bi-chat-fill" style="font-size: 2rem; color:#5db8ea"></i>
+						<div class="card-body d-flex flex-column justify-content-start p-4 gap-1">
+							<i class="bi bi-chat-fill" style="font-size: 2.5rem; color:#5db8ea"></i>
 							<h5 class="card-title">Servicios Profesionales</h5>
 							<p class="card-text">Departamento técnico para todo tamaño de empresa y soporte técnico <b>PRO</b> para usuarios <b>PRO</b></p>
-							<a href="#" class="link-opacity-75 link-underline link-underline-opacity-0 text-uppercase">Conoce más <i class="bi bi-arrow-right"></i></a>
+							<a href="#" class="mt-auto link-underline link-underline-opacity-0 text-uppercase">Conoce más <i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
+			<br>
 		</section>
 
-		<section id="founder" class="container col-8 my-5 pt-5">
-			<div class="fs-2 fw-bold ps-sm-5 ms-sm-5">
+		<section id="founder" class="container col-9 pt-5">
+			<div class="fs-2 fw-semibold ps-sm-5 ms-sm-5">
 				<p class="ps-md-5">Buscamos simplificar la vida de las personas y el progreso de las empresas al ser un puente entre la tecnología y la humanidad, evitando que la falta de información sobre recursos tecnológicos sea un obstáculo.</p>
 			</div>
 		</section>
 
-		<section id="expertise" class="container col-xxl-8 px-4 py-md-5">
+		<section id="expertise" class="container col-xxl-9 px-4 py-md-5">
 			<div class="row flex-lg-row-reverse align-items-stretch justify-content-around g-5 py-5">
 				<div class="col-10 col-sm-8 col-lg-6 align-items-center">
-					<img id="" src="./assets/img/DALL·E Tecno Azules.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+					<img id="expertise-memoji" src="./assets/img/memoji-jobs-01.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
 				</div>
 				<div class="col-lg-6">
 					<h1 class="display-5 fs-5 fw-bold lh-1 mb-3 text-uppercase">Our Focus</h1>
