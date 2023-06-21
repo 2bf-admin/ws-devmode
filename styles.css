@@ -42,48 +42,9 @@
 .rs-image {
 	/*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
 	-webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), transparent);
-	right: 18% !important;
 	/*	filter: saturate(90%)  brightness(120%) drop-shadow(15px -15px #f5721933);*/
 }
      
-
-div::before {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-	
-    background: linear-gradient(60deg, #f57219 44%, #fedf60 100% );
-	
-    transform: translate3d(25px, -25px, 0) scale(0.95);
-    filter: blur(0px);
-    opacity: 50%;
-    transition: opacity 0.3s;
-     border-radius: inherit;
-}
-
-/* 
-* Prevents issues when the parent creates a 
-* stacking context. (For example, using the transform
-* property )
-*/
-div::after {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: inherit;
-    border-radius: inherit;
-}
-        
-
-
 
 .body-gradient {
 	
