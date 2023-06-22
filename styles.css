@@ -96,3 +96,27 @@ img {
   border-radius: 500px;
   background-color: #5db8ea80;
 }
+
+.icon-container {
+	border-radius: 500px;
+	margin-left: auto !important;
+	margin-right: auto!important;
+	width: 5rem;
+	height: 5rem;
+}
+
+.icon-container > i::before {	
+	transform: translateY(0.5rem) !important;
+}
+
+.icon-gold {
+	background-color: #fedf60;
+}
+
+.icon-silver {
+	background-color: rgb(193,193,193);
+}
+
+.icon-bronze {
+	background-color: #ffae24;
+}
