@@ -43,7 +43,7 @@
 
 .rs-image {
   /*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
-  /*-webkit-mask-image: linear-gradient( rgb(150, 150, 1500) 70%, transparent);*/
+  -webkit-mask-image: linear-gradient( rgb(150, 150, 1500) 70%, transparent);
   filter: saturate(70%) brightness(120%) /*drop-shadow(5px -15px #fff)*/;
 }
 
@@ -106,7 +106,7 @@ img {
 }
 
 .icon-container > i::before {	
-	transform: translateY(0.5rem) !important;
+	transform: translateY(0.6rem) !important;
 }
 
 .icon-gold {
