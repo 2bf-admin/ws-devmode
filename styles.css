@@ -120,3 +120,13 @@ img {
 .icon-bronze {
 	background-color: #ffae24;
 }
+
+@media (min-width: 992px) { 
+  .border-end-lg-3 {       
+      border-radius: .5rem 0 0 .5rem  !important;
+  }
+  .border-start-lg-3 {       
+    border-radius: 0 .5rem .5rem 0  !important;
+}
+}
+
