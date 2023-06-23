@@ -43,8 +43,13 @@
 
 .rs-image {
   /*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
-  -webkit-mask-image: linear-gradient( rgb(150, 150, 1500) 70%, transparent);
+  -webkit-mask-image: linear-gradient( rgb(150, 150, 150) 70%, transparent);
   filter: saturate(70%) brightness(120%) /*drop-shadow(5px -15px #fff)*/;
+}
+.rs-i2 {
+  /*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
+  -webkit-mask-image: none;
+  filter: none;
 }
 
 .body-gradient {

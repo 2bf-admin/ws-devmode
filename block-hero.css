@@ -330,7 +330,7 @@
 @media only screen and (min-width: 1200px) {
   .block-hero--side-by-side-box .block-hero__content,
   .block-hero--side-by-side .block-hero__content {
-    min-height: 420px;
+    min-height: 350px;
   }
 }
 
@@ -350,11 +350,18 @@
   left: 0;
   z-index: 2;
 }
-
+@media only screen and (max-width: 868px) {
+  .rs-i2 {
+    width: 90% !important;
+  }
+}
 @media only screen and (min-width: 868px) {
   .block-hero--side-by-side-box .rs-image,
   .block-hero--side-by-side .rs-image {
     top: 80px;
+  }
+  .rs-i2 {
+    top: 150px !important;
   }
 }
 
@@ -374,6 +381,9 @@
 @media only screen and (min-width: 1600px) {
   .rs-image {
     right: 18% !important;
+  }
+  .rs-i2 {
+    right: 21% !important;
   }
 }
 
@@ -416,6 +426,9 @@
 @media only screen and (min-width: 1441px) {
   .block-hero--side-by-side .rs-image {
     max-width: 36%;
+  }
+  .rs-i2{
+    max-width: 27% !important;
   }
 }
 
