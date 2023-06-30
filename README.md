@@ -3,9 +3,7 @@ Reimagined web site, devmode stage. Fill the issues section with some errors you
 
 ---
 ## 🚧 - Work in progress
-
-- [ ] Services tabs bug.
-
+- [ ] Nav decoration margin/padding.
 ---
 
 ## ✅ - Done
@@ -21,13 +19,13 @@ Reimagined web site, devmode stage. Fill the issues section with some errors you
 ---
 
 ## 🐞 - Known Bugs
-- [ ] Onboarding image scaleing issues.
-- [ ] Nav decoration margin/padding.
+- [ ] Onboarding image scaling issues.
 
 ---
 
 ## 🪲 - Solved Bugs
 - [x] Fix contact page assets
+- [x] Services tabs bug.
 ---
 
 | [<img src="https://avatars.githubusercontent.com/u/110247470?v=4" width=100 style="border-radius:100px"><br><sub>Edson Hernández</sub>](https://github.com/2bf-edson-hernandez/) |
