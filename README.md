@@ -3,7 +3,6 @@ Reimagined web site, dev stage. Fill the issues section with some errors you mig
 
 ---
 ## 🚧 - Work in progress
-- [ ] Nav decoration margin/padding.
 ---
 
 ## ✅ - Done
@@ -28,6 +27,8 @@ Reimagined web site, dev stage. Fill the issues section with some errors you mig
 ## 🪲 - Solved Bugs
 - [x] Fix contact page assets
 - [x] Services tabs bug.
+- [x] Nav decoration margin/padding.
+
 ---
 
 | [<img src="https://avatars.githubusercontent.com/u/110247470?v=4" width=100 style="border-radius:100px"><br><sub>Edson Hernández</sub>](https://github.com/2bf-edson-hernandez/) |
