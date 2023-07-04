@@ -1,6 +1,6 @@
 # 2BeFocus Web Site - devmode
 Reimagined web site, dev stage. Fill the issues section with some errors you might notice or some front end requests.
-
+Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 ---
 ## 🚧 - Work in progress
 - [ ] Sharing preview for all pages
