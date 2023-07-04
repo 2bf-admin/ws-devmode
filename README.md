@@ -3,6 +3,7 @@ Reimagined web site, dev stage. Fill the issues section with some errors you mig
 
 ---
 ## 🚧 - Work in progress
+- [ ] Website icon and title for every page.
 ---
 
 ## ✅ - Done
@@ -19,7 +20,6 @@ Reimagined web site, dev stage. Fill the issues section with some errors you mig
 ---
 
 ## 🐞 - Known Bugs
-- [ ] Website icon and title for every page.
 - [ ] Onboarding image scaling issues.
 
 ---
