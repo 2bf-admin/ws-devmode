@@ -3,7 +3,7 @@ Reimagined web site, dev stage. Fill the issues section with some errors you mig
 
 ---
 ## 🚧 - Work in progress
-- [ ] Website icon and title for every page.
+- [ ] Sharing preview for all pages
 ---
 
 ## ✅ - Done
@@ -13,7 +13,6 @@ Reimagined web site, dev stage. Fill the issues section with some errors you mig
 ## 🎯 - To Do
 
 - [ ] Footer for all pages
-- [ ] Sharing preview for all pages
 - [ ] Team page
 - [ ] News page
 
@@ -21,13 +20,13 @@ Reimagined web site, dev stage. Fill the issues section with some errors you mig
 
 ## 🐞 - Known Bugs
 - [ ] Onboarding image scaling issues.
-
 ---
 
 ## 🪲 - Solved Bugs
 - [x] Fix contact page assets
 - [x] Services tabs bug.
 - [x] Nav decoration margin/padding.
+- [x] Website icon and title for every page.
 
 ---
 
