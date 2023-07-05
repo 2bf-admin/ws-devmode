@@ -6,6 +6,7 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 ---
 ## 🚧 - Work in progress
 - [ ] Sharing preview for all pages
+- [x] Onboarding image scaling issues.
 ---
 
 ## ✅ - Done
@@ -21,7 +22,6 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 ---
 
 ## 🐞 - Known Bugs
-- [ ] Onboarding image scaling issues.
 ---
 
 ## 🪲 - Solved Bugs
