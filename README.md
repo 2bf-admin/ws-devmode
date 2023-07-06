@@ -5,20 +5,17 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 
 ---
 ## 🚧 - Work in progress
+- [ ] Handle Zoho Cookies
+---
 
-
+## 🎯 - To Do
+- [ ] News page
 ---
 
 ## ✅ - Done
 - [x] Sharing preview for all pages
 - [x] Footer for all pages
 
----
-
-## 🎯 - To Do
-- [ ] Team page
-- [ ] News page
-- [ ] Handle Zoho Cookies
 ---
 
 ## 🐞 - Known Bugs
@@ -34,6 +31,11 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 - [x] Nav decoration margin/padding.
 - [x] Website icon and title for every page.
 
+---
+
+## 🚧 - 2nd Realsease
+- [ ] Team page
+- [ ] Zoho campaings custom registration
 ---
 
 | [<img src="https://avatars.githubusercontent.com/u/110247470?v=4" width=100 style="border-radius:100px"><br><sub>Edson Hernández</sub>](https://github.com/2bf-edson-hernandez/) |
