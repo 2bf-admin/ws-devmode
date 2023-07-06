@@ -18,11 +18,13 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 ## 🎯 - To Do
 - [ ] Team page
 - [ ] News page
-
+- [ ] Handle Zoho Cookies
 ---
 
 ## 🐞 - Known Bugs
-- [x] Index image scaling issues.
+- [ ] ⚠️ Critical - SVG Body pseudo elements
+- [ ] Index image scaling issues.
+- [ ] Subscription button (not Index Footers)
 ---
 
 ## 🪲 - Solved Bugs
