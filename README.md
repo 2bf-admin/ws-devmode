@@ -5,26 +5,28 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 
 ---
 ## 🚧 - Work in progress
-- [ ] Sharing preview for all pages
-- [x] Onboarding image scaling issues.
+
+
 ---
 
 ## ✅ - Done
+- [x] Sharing preview for all pages
+- [x] Footer for all pages
 
 ---
 
 ## 🎯 - To Do
-
-- [ ] Footer for all pages
 - [ ] Team page
 - [ ] News page
 
 ---
 
 ## 🐞 - Known Bugs
+- [x] Index image scaling issues.
 ---
 
 ## 🪲 - Solved Bugs
+- [x] Onboarding image scaling issues.
 - [x] Fix contact page assets
 - [x] Services tabs bug.
 - [x] Nav decoration margin/padding.

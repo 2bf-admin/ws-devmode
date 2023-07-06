@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="h-100">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,7 +20,7 @@
     <link href="../styles/block-hero.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="../assets/ico/New Project.svg" />
   </head>
-  <body>
+  <body class="d-flex flex-column h-100 body-gradient">
     <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary py-4">
       <div class="container col-xxl-8">
         <a class="navbar-brand" href="../index.html">2BeFocus</a>
@@ -86,6 +86,128 @@
         </div>
       </div>
     </nav>
+    <main class="container flex-shrink-0">
+    </main>
+    <footer id="contact" class="footer mt-auto text-bg-dark bg-gradient container-fluid bg-opacity-75">
+      <footer class="py-5 col-8 mx-auto">
+        <div class="row d-flex flex-sm-row flex-column">
+          <div class="col-sm-6">
+            <h5 class="fs-2">Suscríbete a nuestro newsletter</h5>
+          </div>
+          <!--div class="col-1"></div-->
+          <div class="col-sm-6 d-flex flex-column mb-3 justify-content-end">
+            <label for="newsletter" class="">Email*</label>
+            <div id="customForm">
+              <div class="quick_form_9_css" name="SIGNUP_BODY">
+                <div>
+                  <div id="SIGNUP_HEADING"></div>
+                  <div style="position: relative">
+                    <div id="Zc_SignupSuccess" style="display: none; position: absolute; margin-left: 4%; width: 90%; background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154); margin-top: 10px; margin-bottom: 10px; word-break: break-all">
+                      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody>
+                          <tr>
+                            <td width="10%">
+                              <img class="successicon" src="https://ocus-zcmp.maillist-manage.eu/images/challangeiconenable.jpg" align="absmiddle" />
+                            </td>
+                            <td>
+                              <span id="signupSuccessMsg" style="color: rgb(73, 140, 132); font-family: sans-serif; font-size: 14px; word-break: break-word">&nbsp;&nbsp;Thank you for Signing Up</span>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <form method="POST" id="zcampaignOptinForm" action="https://ocus-zcmp.maillist-manage.eu/weboptin.zc" target="_zcSignup" onsubmit="zcScptlessSubmit(this)">
+                    <div id="errorMsgDiv"></div>
+                    <div class="input-group input-group-lg d-flex flex-lg-row flex-column w-100 justify-content-end">
+                      <div class="SIGNUP_FLD flex-fill">
+                        <input type="text" placeholder="" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL" class="form-control text-bg-dark rounded-3 mb-1 border-end-lg-3 bg-opacity-50" />
+                      </div>
+                      <div class="SIGNUP_FLD">
+                        <input type="submit" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="Enviar" class="btn btn-outline-secondary bg-light rounded-3 border-start-lg-3 border-light w-100" />
+                      </div>
+                    </div>
+                    <input type="hidden" id="fieldBorder" value="" />
+                    <input type="hidden" id="submitType" name="submitType" value="optinCustomView" />
+                    <input type="hidden" id="emailReportId" name="emailReportId" value="" />
+                    <input type="hidden" id="formType" name="formType" value="QuickForm" />
+                    <input type="hidden" name="zx" id="cmpZuid" value="14acb3cc65" />
+                    <input type="hidden" name="zcvers" value="2.0" />
+                    <input type="hidden" name="oldListIds" id="allCheckedListIds" value="" />
+                    <input type="hidden" id="mode" name="mode" value="OptinCreateView" />
+                    <input type="hidden" id="zcld" name="zcld" value="1115523f36935435" />
+                    <input type="hidden" id="zctd" name="zctd" value="" />
+                    <input type="hidden" id="document_domain" value="" />
+                    <input type="hidden" id="zc_Url" value="ocus-zcmp.maillist-manage.eu" />
+                    <input type="hidden" id="new_optin_response_in" value="0" />
+                    <input type="hidden" id="duplicate_optin_response_in" value="0" />
+                    <input type="hidden" name="zc_trackCode" id="zc_trackCode" value="ZCFORMVIEW" />
+                    <input type="hidden" id="zc_formIx" name="zc_formIx" value="3z0d9dd22f26aa0cd57faca67363e61ef1cfc58cc87a8588c1294b6bf3fce772c7" />
+                    <input type="hidden" id="viewFrom" value="URL_ACTION" />
+                    <input type="hidden" id="scriptless" name="scriptless" value="yes" />
+                    <input type="hidden" id="zc_spmSubmit" name="zc_spmSubmit" value="ZCSPMSUBMIT" />
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!--form class="">
+              <div class="d-flex flex-column flex-sm-row align-content-center w-100 h-100 gap-2">
+					  <label for="newsletter1" class="visually-hidden">Email address</label>
+					  <input id="newsletter1" type="text" class="form-control align-self-end" placeholder="Email address">
+					  <button class="btn btn-light align-self-end" type="button">Subscribe</button>
+					</div>
+              <div class="input-group input-group-lg flex-sm-row flex-column">
+                <input class="form-control text-bg-dark w-sm-100 w-auto rounded-3 mb-1 border-end-lg-3" type="text" placeholder="" aria-label="Email" aria-describedby="newsletter" />
+                <button class="btn btn-outline-secondary bg-light rounded-3 border-start-lg-3" type="button" id="newsletter">SUBMIT</button>
+              </div>
+            </form-->
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-3 border-top">
+          <p>© 2023 2BeFocus, L. S. Todos los derechos reservados.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#">
+                <svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </footer>
+
+    <div id="footer-aux">
+      <!--Zoho Campaigns Web-Optin Form Starts Here-->
+      <div id="zcOptinOverLay" oncontextmenu="return false" style="display: none; text-align: center; background-color: rgb(0, 0, 0); opacity: 0.5; z-index: 100; position: fixed; width: 100%; top: 0px; left: 0px; height: 988px"></div>
+      <div id="zcOptinSuccessPopup" style="display: none; z-index: 9999; width: 800px; height: 40%; top: 84px; position: fixed; left: 26%; background-color: #ffffff; border-color: #e6e6e6; border-style: solid; border-width: 1px; box-shadow: 0 1px 10px #424242; padding: 35px">
+        <span style="position: absolute; top: -16px; right: -14px; z-index: 99999; cursor: pointer" id="closeSuccess">
+          <img src="https://ocus-zcmp.maillist-manage.eu/images/videoclose.png" />
+        </span>
+        <div id="zcOptinSuccessPanel"></div>
+      </div>
+      <script>
+        function zcScptlessSubmit(parentNode) {
+          if (parentNode.querySelector("#zc_spmSubmit")) {
+            parentNode.querySelector("#zc_spmSubmit").remove();
+          }
+          parentNode.submit();
+        }
+      </script>
+      <!--Zoho Campaigns Web-Optin Form Ends Here-->
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
   </body>
 </html>

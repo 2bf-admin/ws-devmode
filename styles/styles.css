@@ -83,9 +83,9 @@ body::after {
   content: "";
   position: absolute;
   top: 75px;
-  left: -50%;
+  left: -45%;
   width: 150%;
-  height: 200%;
+  height: 80%;
   z-index: -1;
   background-repeat: no-repeat;
   background-image: url('data:image/svg+xml,<svg id="visual" viewBox="0 0 1440 390" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 57L80 56.3C160 55.7 320 54.3 480 53.8C640 53.3 800 53.7 960 60.5C1120 67.3 1280 80.7 1360 87.3L1440 94L1440 0L1360 0C1280 0 1120 0 960 0C800 0 640 0 480 0C320 0 160 0 80 0L0 0Z" fill="%23fedf60"></path><path d="M0 46L80 45.2C160 44.3 320 42.7 480 44.5C640 46.3 800 51.7 960 48.7C1120 45.7 1280 34.3 1360 28.7L1440 23L1440 0L1360 0C1280 0 1120 0 960 0C800 0 640 0 480 0C320 0 160 0 80 0L0 0Z" fill="%23fec741"></path><path d="M0 20L80 24C160 28 320 36 480 36C640 36 800 28 960 23.8C1120 19.7 1280 19.3 1360 19.2L1440 19L1440 0L1360 0C1280 0 1120 0 960 0C800 0 640 0 480 0C320 0 160 0 80 0L0 0Z" fill="%23ffae24"></path></svg>');
