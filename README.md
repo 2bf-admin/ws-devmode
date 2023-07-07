@@ -5,11 +5,12 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 
 ---
 ## 🚧 - Work in progress
-- [ ] Handle Zoho Cookies
+- [ ] News page
+
 ---
 
 ## 🎯 - To Do
-- [ ] News page
+- [ ] Handle Zoho Cookies
 ---
 
 ## ✅ - Done
@@ -19,9 +20,7 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 ---
 
 ## 🐞 - Known Bugs
-- [ ] ⚠️ Critical - SVG Body pseudo elements
 - [ ] Index image scaling issues.
-- [ ] Subscription button (not Index Footers)
 ---
 
 ## 🪲 - Solved Bugs
@@ -30,6 +29,8 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 - [x] Services tabs bug.
 - [x] Nav decoration margin/padding.
 - [x] Website icon and title for every page.
+- [x] Subscription button (not Index Footers)
+- [x] ⚠️ Critical - SVG Body pseudo elements
 
 ---
 
