@@ -83,8 +83,8 @@ body::after {
   content: "";
   position: absolute;
   top: 75px;
-  left: -45%;
-  width: 150%;
+  left: 0px;
+  width: 100%;
   height: 80%;
   z-index: -1;
   background-repeat: no-repeat;
