@@ -5,12 +5,26 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 
 ---
 ## 🚧 - Work in progress
-- [ ] News page
+- [ ] Index - Quote
+  - [x] Reduce Quote icon
+  - [x] Change style, main from start to "empresas."
+  - [x] Change style, secondary after "empresas."
 
 ---
 
 ## 🎯 - To Do
+- [ ] Separate nav items
+- [ ] Change index picture.
+- [ ] Onboarding
+  - [ ] Data transfer flex
+  - [ ] Improve icons layout*
+- [ ] Contact page, change h1
+- [ ] Services page
+  - [ ] Infrastructure bullets
+  - [ ] Titles flex start
+  - [ ] Remove infographics for responsive
 - [ ] Handle Zoho Cookies
+- [ ] News page
 ---
 
 ## ✅ - Done

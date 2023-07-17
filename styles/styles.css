@@ -24,10 +24,10 @@
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  top: -120px;
-  left: 0px;
-  height: 200px;
-  width: 200px;
+  top: -100px;
+  left: -95px;
+  height: 125px;
+  width: 125px;
   z-index: -1;
   border-radius: 100px;
 }
@@ -44,7 +44,7 @@
 .rs-image {
   /*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
   -webkit-mask-image: linear-gradient( rgb(150, 150, 150) 70%, transparent);
-  filter: saturate(70%) brightness(120%) /*drop-shadow(5px -15px #fff)*/;
+  /*filter: saturate(70%) brightness(120%) drop-shadow(5px -15px #fff)*/;
 }
 .rs-i2 {
   /*-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/

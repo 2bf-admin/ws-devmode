@@ -92,7 +92,7 @@
   line-height: 28px;
   font-weight: 400;
 }
-
+     
 .block-hero .rs-heading.rs-heading--sub.style--secondary {
   font-size: 14px;
   line-height: 20px;
@@ -358,7 +358,7 @@
 @media only screen and (min-width: 868px) {
   .block-hero--side-by-side-box .rs-image,
   .block-hero--side-by-side .rs-image {
-    top: 80px;
+    top: 20px;
   }
   .rs-i2 {
     top: 150px !important;
@@ -370,9 +370,10 @@
   .block-hero--side-by-side .rs-image {
     position: absolute;
     max-width: 50%;
-    width: 100%;
+    width: 40%;
+    /*transform: rotate(10deg);*/
     height: auto;
-    right: 0;
+    right: 20;
     left: unset;
     margin-top: 0;
   }
