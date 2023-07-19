@@ -5,24 +5,12 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 
 ---
 ## 🚧 - Work in progress
-- [ ] Index - Quote
-  - [x] Reduce Quote icon
-  - [x] Change style, main from start to "empresas."
-  - [x] Change style, secondary after "empresas."
-
+- [ ] Index image scaling issues.
+- [ ] Services page
+  - [ ] Remove infographics for responsive
 ---
 
 ## 🎯 - To Do
-- [ ] Separate nav items
-- [ ] Change index picture.
-- [ ] Onboarding
-  - [ ] Data transfer flex
-  - [ ] Improve icons layout*
-- [ ] Contact page, change h1
-- [ ] Services page
-  - [ ] Infrastructure bullets
-  - [ ] Titles flex start
-  - [ ] Remove infographics for responsive
 - [ ] Handle Zoho Cookies
 - [ ] News page
 ---
@@ -30,11 +18,21 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 ## ✅ - Done
 - [x] Sharing preview for all pages
 - [x] Footer for all pages
+- [ ] Index - Quote
+  - [x] Reduce Quote icon
+  - [x] Change style, main from start to "empresas."
+  - [x] Change style, secondary after "empresas."
+- [ ] Services page
+  - [x] Infrastructure bullets
+  - [x] Titles flex start
+- [x] Contact page, change h1
+- [x] Onboarding improve icons layout*
+- [x] Separate nav items
 
 ---
 
 ## 🐞 - Known Bugs
-- [ ] Index image scaling issues.
+
 ---
 
 ## 🪲 - Solved Bugs
@@ -45,6 +43,7 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 - [x] Website icon and title for every page.
 - [x] Subscription button (not Index Footers)
 - [x] ⚠️ Critical - SVG Body pseudo elements
+- [x] Onboarding Data transfer card flex
 
 ---
 
