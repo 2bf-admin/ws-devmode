@@ -5,9 +5,7 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 
 ---
 ## 🚧 - Work in progress
-- [ ] Index image scaling issues.
-- [ ] Services page
-  - [ ] Remove infographics for responsive
+
 ---
 
 ## 🎯 - To Do
@@ -28,7 +26,8 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 - [x] Contact page, change h1
 - [x] Onboarding improve icons layout*
 - [x] Separate nav items
-
+- [x] Services page
+  - [x] Remove infographics for responsive
 ---
 
 ## 🐞 - Known Bugs
@@ -44,7 +43,7 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 - [x] Subscription button (not Index Footers)
 - [x] ⚠️ Critical - SVG Body pseudo elements
 - [x] Onboarding Data transfer card flex
-
+- [x] Index image scaling issues.
 ---
 
 ## 🚧 - 2nd Realsease
