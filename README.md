@@ -10,7 +10,7 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 
 ## 🎯 - To Do
 - [ ] Handle Zoho Cookies
-- [ ] News page
+
 ---
 
 ## ✅ - Done
@@ -28,6 +28,8 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 - [x] Separate nav items
 - [x] Services page
   - [x] Remove infographics for responsive
+- [x] Brackets for 2BF Logo
+- [x] Hide not used pages
 ---
 
 ## 🐞 - Known Bugs
@@ -44,9 +46,11 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 - [x] ⚠️ Critical - SVG Body pseudo elements
 - [x] Onboarding Data transfer card flex
 - [x] Index image scaling issues.
+- [x] Quotation layout bug for respoinsive
 ---
 
 ## 🚧 - 2nd Realsease
+- [ ] News page
 - [ ] Team page
 - [ ] Zoho campaings custom registration
 ---
