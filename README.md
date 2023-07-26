@@ -9,7 +9,6 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
 ---
 
 ## 🎯 - To Do
-- [ ] Handle Zoho Cookies
 
 ---
 
@@ -30,6 +29,7 @@ Github Pages Deployment: https://2bf-edson-hernandez.github.io/ws-devmode/
   - [x] Remove infographics for responsive
 - [x] Brackets for 2BF Logo
 - [x] Hide not used pages
+- [x] Handle Zoho Cookies
 ---
 
 ## 🐞 - Known Bugs
