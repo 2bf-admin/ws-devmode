@@ -72,7 +72,7 @@ cc.run({
                         toggle: {
                             value: 'necessary',
                             enabled: true,
-                            readonly: false          // cookie categories with readonly=true are all treated as "necessary cookies"
+                            readonly: true          // cookie categories with readonly=true are all treated as "necessary cookies"
                         },
                         cookie_table: [             // list of all expected cookies
                             {
