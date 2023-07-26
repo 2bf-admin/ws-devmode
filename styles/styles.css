@@ -188,6 +188,23 @@ img {
   }
 }
 
+#cookies {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: whitesmoke;
+  background-color: gray;
+  z-index: 1;
+  display: none;
+}
+
+.cookies{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 
 
