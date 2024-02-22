@@ -56,10 +56,11 @@
 
 .body-gradient {
   background: #fff;
-  background: linear-gradient(180deg, #fedf6033 30%, #ffae2433 70%, #f5721933 100%) #eeeeee;
+  background: linear-gradient(180deg, #c38cd333 20%, #fe635733 35%, #f5f5f533 50%) #eeeeee;
+
   background-repeat: no-repeat;
   background-size: auto;
-  background-attachment: fixed;
+  background-attachment: scroll !important;
 }
 
 .body-gradient > * {
@@ -73,7 +74,7 @@ body::before {
   left: 0%;
   height: 200px;
   width: 100%;
-  background-color: #ffae24;
+  background-color: #005923;
   opacity: 85%;
 }
 
