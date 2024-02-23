@@ -1,3 +1,7 @@
+:root {
+  --cc-btn-primary-bg: #005923 !important;
+}
+
 .li-hoverbar::before {
   content: "";
   display: inline-block;

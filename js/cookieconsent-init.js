@@ -140,7 +140,7 @@ cc.run({
                             ]
                     }, {
                         title: 'Más información',
-                        description: 'Para cualquier consulta en relación con nuestra política de cookies y sus elecciones, por favor, <a class="cc-link" href="./pages/contact.html">contáctanos</a>.',
+                        description: 'Para cualquier consulta en relación con nuestra política de cookies y sus elecciones, por favor, <a class="cc-link" href="./contact.html">contáctanos</a>.',
                     }
                 ]
             }
